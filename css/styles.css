@@ -1,0 +1,103 @@
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background-image: linear-gradient(180deg, #89d5fe 0%, #7a66ff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+/*List*/
+
+.list {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px #00000025;
+  padding: 40px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.list-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.list-tittle {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/*Form*/
+
+.form {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+
+}
+
+.form-input {
+  flex: 1;
+  font-family: "Poppins";
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.form-input-filter {
+  margin-top: 0;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: "Poppins";
+  font-size: 16px;
+  margin-bottom: 16px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #999999;
+  background: transparent;
+  outline: none;
+}
+
+/*Buttons*/
+
+.btn {
+  background: linear-gradient(180deg, #75ff2b 0%, #4bd103 100%);
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 11px 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.02);
+}
+
+.btn-clear {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px 20px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  background: #f2f2f2;
+  color: #000000;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-clear:hover {
+  background: linear-gradient(180deg, #ff4c4c 0%, #f61e1e 100%);
+  border: 2px solid #f61e1e;
+  color: #ffffff;
+}
