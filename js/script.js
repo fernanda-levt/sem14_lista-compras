@@ -58,9 +58,6 @@ itemForm.addEventListener('submit', e => {
 
 /*Delete Item*/
 const deleteItem = index => {
-  const confirmDelete = confirm('¿Seguro que deseas borrar este item?');
-  if (!confirmDelete) return;
-
   items.splice(index, 1);
   saveItems();
   renderItems();
