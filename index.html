@@ -15,19 +15,20 @@
       <h1 class="list-tittle">📋🛒 Shopping List</h1>
     </header>
 
-    <form class="form">
-        <input type="text" class="form-input" placeholder="Enter item">
-        <button class="btn">+ Add item</button>
+    <form id="itemForm" class="form">
+        <input type="text" id="itemInput" name="item" class="form-input" placeholder="Enter item">
+        <button type="submit" class="btn">+ Add item</button>
     </form>
 
     <div>
-      <input type="text" class="form-input-filter" placeholder="🔎 Filter items">
+      <input id="filter" type="text" class="form-input-filter" placeholder="🔎 Filter items">
     </div>
 
-    <ul></ul>
+    <ul id="itemList" class="items"></ul>
 
-    <button class="btn-clear">Clear all</button>
+    <button id="clear" class="btn-clear">Clear all</button>
   </main>
 
+  <script src="./js/script.js"></script>
 </body>
 </html>
